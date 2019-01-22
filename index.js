@@ -38,6 +38,7 @@ function iLoveTheBeatles(n) {
     return "I love the Beatles!";
   }
   
+  var arr = [];
   for (var i = 0; i <= n; i++) {
     console.log("I love the Beatles!");
   }
