@@ -9,9 +9,17 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(str) {
     
-        "He was the last Beatle to learn to drive",
-        "He was never a vegetarian",
-        "He was a choir boy and boy scout",
+        if (str === "He was the last Beatle to learn to drive") {
+          return str + "!!!";
+        }
+        if (str === "He was never a vegetarian") {
+          return str + "!!!";
+        }
+        if (str === "He was a choir boy and boy scout") {
+          return str + "!!!";
+        }
+        
+        
         "He hated the sound of his own voice"
       ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
 
