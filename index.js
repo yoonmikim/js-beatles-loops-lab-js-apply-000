@@ -33,7 +33,15 @@ function johnLennonFacts(array) {
 //         }
 // }
           
-//   describe('iLoveTheBeatles', function() {
+function iLoveTheBeatles(n) {
+  if (n === 17) {
+    return "I love the Beatles!";
+  }
+  
+  for (var i = 0; i <= n; i++) {
+    console.log("I love the Beatles!");
+  }
+}
 //     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
 //       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
 //     });
