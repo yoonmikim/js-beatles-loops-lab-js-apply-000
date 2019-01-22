@@ -40,8 +40,9 @@ function iLoveTheBeatles(n) {
   
   var arr = [];
   for (var i = 0; i <= n; i++) {
-    console.log("I love the Beatles!");
+    arr.push("I love the Beatles!");
   }
+  return arr;
 }
 //     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
 //       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
