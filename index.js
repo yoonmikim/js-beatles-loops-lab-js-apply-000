@@ -7,25 +7,31 @@ function theBeatlesPlay(musicians, instruments) {
   return arr;
 }  
 
-function johnLennonFacts(str) {
-    
-        if (str === "He was the last Beatle to learn to drive") {
-          return str + "!!!";
-        }
-        if (str === "He was never a vegetarian") {
-          return str + "!!!";
-        }
-        if (str === "He was a choir boy and boy scout") {
-          return str + "!!!";
-        }
-         if (str === "He hated the sound of his own voice") {
-          return str + "!!!";
-        }
-        
-        if (str === "foo" || str === 'bar') {
-          return str + "!!!"
-        }
+function johnLennonFacts(array) {
+  var arr = [];
+  
+  for (var i = 0; i < array.length; i++) {
+    arr.push(array[i] + "!!!")  
+  }
+    return arr;
 }
+//         if (str === "He was the last Beatle to learn to drive") {
+//           return str + "!!!";
+//         }
+//         if (str === "He was never a vegetarian") {
+//           return str + "!!!";
+//         }
+//         if (str === "He was a choir boy and boy scout") {
+//           return str + "!!!";
+//         }
+//         if (str === "He hated the sound of his own voice") {
+//           return str + "!!!";
+//         }
+        
+//         if (str === "foo" || str === 'bar') {
+//           return str + "!!!"
+//         }
+// }
           
 //   describe('iLoveTheBeatles', function() {
 //     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
